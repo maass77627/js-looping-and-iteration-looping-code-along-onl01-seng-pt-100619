@@ -1,13 +1,15 @@
+const names = ["Lisa", "Kaitlin", "Jan"];
 
-  function writeCards(names, event) {
-    for (let count = 0; count < names.length; count++) {
-      console.log(`Thank you, ${name}, for the wonderful birthday gift!`)
-    }
-    return names
-  }
+function writeCards(names, event) {
+for (let i = 0; i < names.length; i++) {
+  console.log("Thank you, ${name} for the wonderful ${event} gift!")
+}
+return names
+}
 
- 
-  let countdown = 0;
-while (countdown > 0) {
-  console.log(countdown--);
+function countDown(num) {
+  while (num > 0) {
+  console.log(num--);
+}
+
 }
